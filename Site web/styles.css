@@ -1,0 +1,95 @@
+body {
+    background-color: whitesmoke;
+}
+
+/*---------- HEADER */
+
+.header {
+    text-align: center;
+}
+
+.header img {
+    max-width: 50%;  
+    width: 200px;      
+    height: auto;     
+    display: inline-block;
+}
+
+nav {
+    background-color: olive;
+    padding: 10px 0;
+    border-radius: 50px;   
+    margin: 10px auto;     
+    font-size: 25px;
+    width: 80%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;  
+}
+
+.main {
+    min-height: 300px;
+}
+
+/* ------- MAIN */
+
+.banner {
+    background: url(Pasta.jpg) center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    border-radius: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.banner-content {
+    position: relative;
+    color: white;
+    border-radius: 50px;
+    padding: 2rem;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 3rem 2rem;
+}
+
+.card {
+    background: olive;
+    padding: 1.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.articles .card img {
+    height: auto;
+    width: 200px;
+}
+
+/*------- FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 50px;
+    padding: 2rem;
+}
