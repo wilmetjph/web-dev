@@ -1,0 +1,93 @@
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+body {
+	background-color: #EDEFEE;
+	font-family: 'Markazi Text', serif;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
+}
+
+header > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50px;
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+	font-size: 2rem;
+	background-color: olive;
+	display: block;
+	padding: 2rem;
+	border-radius: 10px;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+section {
+	display: flex;
+	color: white;
+}
+
+article {
+	flex: 1;
+	text-align: center;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+	border-radius: 10%;
+}
+
+.banner {
+	background: URL('Pasta.jpg') center/cover no-repeat;
+	color: white;
+	display: block;
+	padding: 2rem;
+	border-radius: 10px;
+}
+
+.card {
+	background-color: olive;
+}
+
+section article img {
+	height: 300px;
+}
+
+footer {
+	display: flex;
+}
+
+footer div {
+	flex: 1;
+	margin-right: 2rem;
+	margin-left: 2rem;
+
+}
+
+footer div img {
+	height: 100px;
+}
+
+footer div p {
+	text-align: right;
+}
