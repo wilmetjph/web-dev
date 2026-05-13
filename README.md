@@ -7,6 +7,7 @@ Frontend Web applications.
 - CSS
 - JavaScript
 - React
+- Python
 
 ## Features
 - Responsive UI
