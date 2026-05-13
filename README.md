@@ -15,3 +15,4 @@ Frontend Web applications.
 ## What I learned
 - React hooks
 - State Management
+- Object-Oriented Programming
